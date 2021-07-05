@@ -42,3 +42,6 @@
 ##### Creates, names and pushes existing branch to GitHub
 	git push origin <branch name>
 
+##### Git is not seeing changes in GitHub:
+	git fetch --all
+	git reset --hard origin/master
